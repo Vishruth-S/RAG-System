@@ -1,0 +1,34 @@
+Python Programming Basics
+
+Python is a high-level, interpreted programming language created by Guido van Rossum. It was first released in 1991.
+
+Variables and Data Types:
+In Python, you don't need to declare variable types explicitly. Python uses dynamic typing.
+Example: x = 5 creates an integer, name = "John" creates a string.
+
+Common data types include:
+- int: Integer numbers (5, 100, -3)
+- float: Decimal numbers (3.14, -0.5)
+- str: Text strings ("hello", 'world')
+- bool: True or False values
+- list: Ordered collections [1, 2, 3]
+- dict: Key-value pairs {"name": "John", "age": 30}
+
+Functions:
+Functions are defined using the def keyword.
+Example:
+def greet(name):
+    return f"Hello, {name}!"
+
+To call a function: greet("Alice") returns "Hello, Alice!"
+
+Loops:
+For loops iterate over sequences:
+for i in range(5):
+    print(i)
+
+While loops run while a condition is true:
+while x < 10:
+    x += 1
+
+Python is widely used in web development, data science, machine learning, automation, and scientific computing.

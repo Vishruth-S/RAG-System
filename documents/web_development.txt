@@ -1,0 +1,44 @@
+Web Development with Python
+
+Python is widely used for web development through various frameworks and libraries.
+
+Popular Python Web Frameworks:
+
+Django:
+Django is a high-level web framework that follows the Model-View-Template (MVT) pattern.
+Features: ORM, admin panel, authentication, security features built-in
+Best for: Large, complex applications with many features
+Installation: pip install django
+Create project: django-admin startproject mysite
+
+Flask:
+Flask is a lightweight, micro web framework that gives you flexibility.
+Features: Minimalist core, extensions available for databases, forms, authentication
+Best for: Small to medium applications, APIs, microservices
+Installation: pip install flask
+Basic app: 
+from flask import Flask
+app = Flask(__name__)
+
+FastAPI:
+FastAPI is a modern, fast framework for building APIs.
+Features: Automatic API documentation, type hints, async support
+Best for: REST APIs, microservices
+Installation: pip install fastapi uvicorn
+
+Web Development Concepts:
+
+HTTP Methods:
+- GET: Retrieve data
+- POST: Submit data
+- PUT: Update data
+- DELETE: Remove data
+
+Databases:
+- SQLite: Lightweight, file-based (good for development)
+- PostgreSQL: Powerful, open-source relational database
+- MongoDB: NoSQL document database
+
+Deployment:
+Common platforms: Heroku, AWS, Google Cloud, DigitalOcean
+Process: Set up server, configure database, deploy code, set up domain

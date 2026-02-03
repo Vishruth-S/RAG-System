@@ -1,0 +1,88 @@
+# Virtual Environment - IGNORE ALL OF THESE
+venv/
+venv311/
+env/
+ENV/
+.venv/
+Include/
+Scripts/
+share/
+Lib/
+lib/
+lib64/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ChromaDB - Database files
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and learning files - Don't push these
+test_*.py
+understand_*.py
+see_*.py
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Model downloads
+models/
+*.bin
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypc.json
+dmypy.json

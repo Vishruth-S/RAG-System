@@ -1,0 +1,33 @@
+Machine Learning Fundamentals
+
+Machine learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed.
+
+Types of Machine Learning:
+
+1. Supervised Learning:
+The algorithm learns from labeled training data. You provide input-output pairs, and the model learns to map inputs to outputs.
+Examples: Classification (spam detection), Regression (price prediction)
+Common algorithms: Linear Regression, Decision Trees, Neural Networks
+
+2. Unsupervised Learning:
+The algorithm finds patterns in unlabeled data without predefined outputs.
+Examples: Clustering (customer segmentation), Dimensionality Reduction
+Common algorithms: K-Means, PCA, Autoencoders
+
+3. Reinforcement Learning:
+The algorithm learns by interacting with an environment and receiving rewards or penalties.
+Examples: Game playing, Robotics, Autonomous vehicles
+Common algorithms: Q-Learning, Deep Q-Networks, Policy Gradients
+
+Popular ML Libraries:
+- Scikit-learn: General-purpose ML library
+- TensorFlow: Deep learning framework by Google
+- PyTorch: Deep learning framework by Meta
+- Keras: High-level neural networks API
+
+The ML workflow typically involves:
+1. Data collection and preprocessing
+2. Feature engineering
+3. Model selection and training
+4. Evaluation and validation
+5. Deployment and monitoring
